@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TestLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestLib_jar</output-path>
+    <root id="archive" name="TestLib.jar">
+      <element id="module-output" name="TestLib" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/arduino.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/jssc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/jSerialComm-2.5.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
